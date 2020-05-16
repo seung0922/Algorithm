@@ -14,6 +14,8 @@ public class Ex_2577 {
         int b = sc.nextInt();
         int c = sc.nextInt();
 
+        sc.close();
+
         result = "" + (a * b * c);
 
         for (int j = 0; j < result.length(); j++) {
